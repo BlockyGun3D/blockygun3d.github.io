@@ -1,0 +1,38 @@
+.target {
+  -webkit-animation: fly-in-from-left .5s .5s ease both;
+  -moz-animation: fly-in-from-left .5s 1s ease both;
+  -o-animation: fly-in-from-left .5s 1s ease both;
+  animation: fly-in-from-left .5s .5s ease both;
+  -webkit-transform-origin: top left;
+  transform-origin:top left;
+}
+
+@-webkit-keyframes fly-in-from-left {
+  from {
+    -webkit-transform:translateY(15rem) rotate(15deg);
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fly-in-from-left {
+  from {
+    -moz-transform:translateY(15rem) rotate(15deg);
+    opacity:0;
+  }
+
+}
+
+@-o-keyframes fly-in-from-left {
+  from {
+    -o-transform:translateY(15rem) rotate(15deg);
+    opacity:0;
+  }
+
+}
+
+@keyframes fly-in-from-left {
+  from {
+    transform:translateY(15rem) rotate(15deg);
+    opacity:0;
+  }
+}
