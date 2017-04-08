@@ -1,0 +1,14 @@
+{
+  "name": "goo-arena",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BlockyGun3D/blockygun3d.github.io.git"
+  },
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^3.21.2",
+    "ws": "^0.4.32"
+  },
+  "license": "MIT"
+}
