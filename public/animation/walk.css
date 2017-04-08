@@ -1,0 +1,17 @@
+#walk-container {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    padding-bottom: 30%; 
+    vertical-align: middle; 
+}
+#walk-container > div {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(walk-sequence.svg);
+    background-repeat: no-repeat;
+}
